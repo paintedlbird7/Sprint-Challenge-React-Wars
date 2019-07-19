@@ -24,12 +24,13 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <div>Loading</div>
+      {/* <div>Loading...</div> */}
 
       {characters.map(data => (
       <CharacterCard name={data.name}
                    birth_year={data.birth_year}
-                   url={data.url}
+                  //  url={data.url}
+                  gender={data.gender}
                   /> 
       ))}
 
