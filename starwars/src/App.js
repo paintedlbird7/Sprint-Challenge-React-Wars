@@ -29,7 +29,6 @@ const App = () => {
       {characters.map(data => (
       <CharacterCard name={data.name}
                    birth_year={data.birth_year}
-                  //  url={data.url}
                   gender={data.gender}
                   /> 
       ))}
